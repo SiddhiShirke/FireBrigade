@@ -26,12 +26,23 @@
             font-family:monospace;
         }
         nav{
+        
             background-color: black;
             color: white;
             
             height: 40px;
             
         }
+.navbar{
+    display: flex;
+    background-color: #333;
+}
+
+@media screen and (max-width: 700px) {
+   .navbar {   
+    flex-direction: column;
+  }
+}
         a{
             color: white;
             text-decoration: none;
@@ -50,15 +61,5 @@
             cursor:pointer;
         }
 
-.card{
-    border: 2px solid maroon;
-    border-radius: 12px;
-    padding: 12px;
-    margin: 12px;
-    width: 280px;
-    flex-grow: 1;
-}
-.container{
-    display: flex;
-    flex-wrap: wrap;
-}
+
+
