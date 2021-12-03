@@ -49,3 +49,16 @@
         a{
             cursor:pointer;
         }
+
+.card{
+    border: 2px solid maroon;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 12px;
+    width: 280px;
+    flex-grow: 1;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
